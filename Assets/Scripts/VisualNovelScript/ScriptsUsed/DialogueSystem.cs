@@ -20,9 +20,7 @@ public class DialogueSystem : MonoBehaviour
 		
 	}
 
-	/// <summary>
 	/// Say something and show it on the speech box.
-	/// </summary>
 	public void Say(string speech, string speaker = "")
 	{
 		StopSpeaking();
@@ -96,9 +94,7 @@ public class DialogueSystem : MonoBehaviour
 	[System.Serializable]
 	public class ELEMENTS
 	{
-		/// <summary>
 		/// The main panel containing all dialogue related elements on the UI
-		/// </summary>
 		public GameObject speechPanel;
 		public Text speakerNameText;
 		public Text speechText;
